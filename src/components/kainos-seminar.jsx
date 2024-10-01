@@ -113,7 +113,7 @@ See link below ⬇️
 Register here:<br></br>
 COPY THE LINK and PASTE ON YOUR BROWSER<br></br>
 <br></br>
-<6https://docs.google.com/.../1FAIpQLSdQTVnnNW.../viewform<br></br>
+https://docs.google.com/.../1FAIpQLSdQTVnnNW.../viewform<br></br>
 
 We look forward to your participation!
             </Typography>

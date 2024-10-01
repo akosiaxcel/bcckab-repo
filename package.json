@@ -29,6 +29,7 @@
     "@mui/material": "^5.15.18",
     "axios": "^1.7.2",
     "colorthief": "^2.4.0",
+    "firebase": "^10.14.0",
     "react-copy-to-clipboard": "^5.1.0",
     "react-material-ui-carousel": "^3.4.2",
     "react-responsive-carousel": "^3.2.23",
