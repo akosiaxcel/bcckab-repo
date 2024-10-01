@@ -10,8 +10,23 @@ import {
 } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
 import eventImage1 from "../assets/img/2.png"; // Import the image
+import eventImage2 from "../assets/img/kainos-seminar.jpg"; // Import the image
 
-const upcomingEvents = []; // Empty array to demonstrate "No Upcoming Events"
+
+// Moved Kainos Discipleship Seminar to upcoming events
+const upcomingEvents = [
+  {
+    id: "kainos-seminar",
+    title: "Kainos Discipleship Seminar",
+    date: "October 10",
+    description:
+      "We are pleased to invite Pastors and Church Leaders to T.O.P.I.C / Navigators - Kainos Discipleship Seminar",
+    details:
+      "October 10, 2024, from 9:00 AM to 3:00 PM at Hans Guest House Function Hall. This seminar is designed to empower and equip leaders for impactful ministry.",
+    image: eventImage2,
+    gradientColors: ["#a8c0ff", "#d9e4ff", "#b3d1ff", "#e6f0ff"], // Lighter blue gradient colors
+  },
+];
 
 const events2024 = [
   {
@@ -148,7 +163,10 @@ const Events = () => {
         variant="h3"
         gutterBottom
         style={{ color: "white", margin: "1rem 0 2rem 0", fontWeight: "bold" }}
-      >
+      ><br>
+      </br>
+      <br>
+      </br>
         2024 Events
       </Typography>
 

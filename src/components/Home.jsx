@@ -8,6 +8,7 @@ import bannerImage2 from "../assets/img/2.png";
 import bannerImage3 from "../assets/img/3.png";
 import missionImage from "../assets/img/img1.png"; // Update the path to your mission image
 import communityImage from "../assets/img/community.png"; // Update the path to your community image
+import eventImage2 from "../assets/img/kainos-seminar.jpg";
 
 const HomePage = () => {
   return (
@@ -62,7 +63,7 @@ const HomePage = () => {
           </Box>
         </div>
         <div style={{ position: "relative" }}>
-          <img src={bannerImage2} alt="Banner 2" />
+          <img src={eventImage2} alt="Banner 2" />
           <Box
             sx={{
               position: "absolute",
@@ -91,7 +92,7 @@ const HomePage = () => {
               component="h1"
               sx={{ fontSize: { xs: "1.5rem", md: "2.5rem" } }}
             >
-              Recent Events
+              Upcoming Events
             </Typography>
             <Button
               variant="outlined"

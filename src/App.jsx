@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Give from "./components/Give";
 import { ThemeProvider } from "./ThemeContext";
 import EventPage from "./components/VBS2024";
+import Kainos from "./components/kainos-seminar";
 
 const App = () => (
   <ThemeProvider>
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/give" element={<Give />} />
           <Route path="/events/BCCVBS2024" element={<EventPage />} />
+          <Route path="/events/kainos-seminar" element={<Kainos />} />
         </Routes>
       </main>
       <Footer />

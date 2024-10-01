@@ -76,7 +76,6 @@ const EventPage = () => {
       <Container
         maxWidth="md"
         sx={{
-          background: "white",
           borderRadius: "8px",
           boxShadow: 3,
           background:
